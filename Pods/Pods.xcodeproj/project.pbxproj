@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1D0BB69B6EC1CC50AFE592485D9C13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		18892F029D83463574A2846671EB1C16 /* ESTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF66683C0865EC211F3229D34C5F189 /* ESTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A843C4206A8130C89343233ECCDDE38 /* ESMathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 967D06BFA4563B45FB0E8E5DC6B2370E /* ESMathUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3D2B4EB9D6C6B81150A2B22109167DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		998A59C08166E3CCCB4B0B8845B4743C /* Pods-Time-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52135DDE34CD04D48DC72316F2197EBB /* Pods-Time-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37D1A24A0BCCF492F18AA75BD1ADA65 /* ESTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA23ECF5DF5141BB53A8BF6C64A0B6 /* ESTimePicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA0827602A7D7BB73682ED82288F1041 /* Pods-Time-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 751F8EDE1340CACD0F8E63129E94414B /* Pods-Time-dummy.m */; };
+		BAF990F08B4645957259565A05C01566 /* ESMathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8344F62110EA24B3EE3BC6333EBC1B3B /* ESMathUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9264730FECEF82575491BA0A3DD91A7 /* ESTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B15256E24F5BEAF43D0EDCAF3C4201D1 /* ESTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE027BEE359965E43FCB0680BED431CA /* ESTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15EA0FDF69B8F5BCF1D9CC65C699CDB /* ESTimePicker-dummy.m */; };
+		F43EC9305549CC3FD34A967CCDBDA3DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE20945D6A5A6143634E18E3077DBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EA575DA4DF3E324DA41E51F276B9F8;
+			remoteInfo = ESTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174FD789F1F3C322C1D4BAF6CB456454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF28209E75D77109905168FE56CDB1D /* Pods-Time-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Time-resources.sh"; sourceTree = "<group>"; };
+		3F88A808351BB45B75F535C6302A18B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52135DDE34CD04D48DC72316F2197EBB /* Pods-Time-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Time-umbrella.h"; sourceTree = "<group>"; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E99A1078378B4378DC32D2578590312 /* ESTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESTimePicker.xcconfig; sourceTree = "<group>"; };
+		71A8E687454E77451FA5ACC68370DA27 /* Pods_Time.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Time.framework; path = "Pods-Time.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751F8EDE1340CACD0F8E63129E94414B /* Pods-Time-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Time-dummy.m"; sourceTree = "<group>"; };
+		8222AA2CBE581E5354616CC5DD204B3D /* ESTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		8344F62110EA24B3EE3BC6333EBC1B3B /* ESMathUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESMathUtils.h; path = Classes/ESMathUtils.h; sourceTree = "<group>"; };
+		8E43F13852A01A9513401E71F9F6B6B6 /* ESTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESTimePicker.framework; path = ESTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		967D06BFA4563B45FB0E8E5DC6B2370E /* ESMathUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESMathUtils.m; path = Classes/ESMathUtils.m; sourceTree = "<group>"; };
+		A5C1616E3D6C6EE5F941837DC3640A08 /* Pods-Time-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Time-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFF1DCA0EE7CA6383244E9A1BAA04EB2 /* Pods-Time.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Time.modulemap"; sourceTree = "<group>"; };
+		B15256E24F5BEAF43D0EDCAF3C4201D1 /* ESTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTimePicker-umbrella.h"; sourceTree = "<group>"; };
+		B6AA23ECF5DF5141BB53A8BF6C64A0B6 /* ESTimePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESTimePicker.m; path = Classes/ESTimePicker.m; sourceTree = "<group>"; };
+		C3C4F16D1B3AC66453C9150B370DB755 /* Pods-Time-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Time-acknowledgements.plist"; sourceTree = "<group>"; };
+		D15EA0FDF69B8F5BCF1D9CC65C699CDB /* ESTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTimePicker-dummy.m"; sourceTree = "<group>"; };
+		D18054813C64AEA186595637C9EBE311 /* Pods-Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Time.debug.xcconfig"; sourceTree = "<group>"; };
+		DB6268FCD1FFDB048E8399AF1CA6FC05 /* Pods-Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Time.release.xcconfig"; sourceTree = "<group>"; };
+		E3D2B4C058A35EC19EAB1375859F4AB9 /* ESTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ESTimePicker.modulemap; sourceTree = "<group>"; };
+		E4A2835E127013ED8B6783AEF7DA01F4 /* Pods-Time-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Time-frameworks.sh"; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FFF66683C0865EC211F3229D34C5F189 /* ESTimePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTimePicker.h; path = Classes/ESTimePicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3C2B36CB415568626D94A4B54558039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2B4EB9D6C6B81150A2B22109167DB5 /* Foundation.framework in Frameworks */,
+				0E1D0BB69B6EC1CC50AFE592485D9C13 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06FBCF0AE2AB0FB7639E051CA859F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43EC9305549CC3FD34A967CCDBDA3DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC3F504FFE8C8B5AF13F84CDC11E833 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E706AB83B6B243996A883F83BECD3CF1 /* ESTimePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		673C41B8011CAF4BF580AFE8BA934565 /* Pods-Time */ = {
+			isa = PBXGroup;
+			children = (
+				174FD789F1F3C322C1D4BAF6CB456454 /* Info.plist */,
+				AFF1DCA0EE7CA6383244E9A1BAA04EB2 /* Pods-Time.modulemap */,
+				A5C1616E3D6C6EE5F941837DC3640A08 /* Pods-Time-acknowledgements.markdown */,
+				C3C4F16D1B3AC66453C9150B370DB755 /* Pods-Time-acknowledgements.plist */,
+				751F8EDE1340CACD0F8E63129E94414B /* Pods-Time-dummy.m */,
+				E4A2835E127013ED8B6783AEF7DA01F4 /* Pods-Time-frameworks.sh */,
+				3BF28209E75D77109905168FE56CDB1D /* Pods-Time-resources.sh */,
+				52135DDE34CD04D48DC72316F2197EBB /* Pods-Time-umbrella.h */,
+				D18054813C64AEA186595637C9EBE311 /* Pods-Time.debug.xcconfig */,
+				DB6268FCD1FFDB048E8399AF1CA6FC05 /* Pods-Time.release.xcconfig */,
+			);
+			name = "Pods-Time";
+			path = "Target Support Files/Pods-Time";
+			sourceTree = "<group>";
+		};
+		696A4D270AA59CBBF7B4A140BD73D51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E43F13852A01A9513401E71F9F6B6B6 /* ESTimePicker.framework */,
+				71A8E687454E77451FA5ACC68370DA27 /* Pods_Time.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1AC3F504FFE8C8B5AF13F84CDC11E833 /* Pods */,
+				696A4D270AA59CBBF7B4A140BD73D51A /* Products */,
+				F37206293698E6069E01EDEE7616B05E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B829A076BFC3829844D349CF651730DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3D2B4C058A35EC19EAB1375859F4AB9 /* ESTimePicker.modulemap */,
+				6E99A1078378B4378DC32D2578590312 /* ESTimePicker.xcconfig */,
+				D15EA0FDF69B8F5BCF1D9CC65C699CDB /* ESTimePicker-dummy.m */,
+				8222AA2CBE581E5354616CC5DD204B3D /* ESTimePicker-prefix.pch */,
+				B15256E24F5BEAF43D0EDCAF3C4201D1 /* ESTimePicker-umbrella.h */,
+				3F88A808351BB45B75F535C6302A18B6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ESTimePicker";
+			sourceTree = "<group>";
+		};
+		E706AB83B6B243996A883F83BECD3CF1 /* ESTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8344F62110EA24B3EE3BC6333EBC1B3B /* ESMathUtils.h */,
+				967D06BFA4563B45FB0E8E5DC6B2370E /* ESMathUtils.m */,
+				FFF66683C0865EC211F3229D34C5F189 /* ESTimePicker.h */,
+				B6AA23ECF5DF5141BB53A8BF6C64A0B6 /* ESTimePicker.m */,
+				B829A076BFC3829844D349CF651730DD /* Support Files */,
+			);
+			name = ESTimePicker;
+			path = ESTimePicker;
+			sourceTree = "<group>";
+		};
+		F37206293698E6069E01EDEE7616B05E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				673C41B8011CAF4BF580AFE8BA934565 /* Pods-Time */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C68698FE4A72928456BE633018B0A30C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF990F08B4645957259565A05C01566 /* ESMathUtils.h in Headers */,
+				C9264730FECEF82575491BA0A3DD91A7 /* ESTimePicker-umbrella.h in Headers */,
+				18892F029D83463574A2846671EB1C16 /* ESTimePicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E2EC63543887B1B794ABD98D7C266A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998A59C08166E3CCCB4B0B8845B4743C /* Pods-Time-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B22A7D55E3A6F4F8DF1CD4E4229F03F /* Pods-Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28879F672785D1F0740F3F376D5D8DC0 /* Build configuration list for PBXNativeTarget "Pods-Time" */;
+			buildPhases = (
+				B940E3A8405B8916BAC896BE3316F472 /* Sources */,
+				F06FBCF0AE2AB0FB7639E051CA859F51 /* Frameworks */,
+				D8E2EC63543887B1B794ABD98D7C266A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				692BB350D0EEA798259938C6440741FD /* PBXTargetDependency */,
+			);
+			name = "Pods-Time";
+			productName = "Pods-Time";
+			productReference = 71A8E687454E77451FA5ACC68370DA27 /* Pods_Time.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17EA575DA4DF3E324DA41E51F276B9F8 /* ESTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30917A3ED9E616FBFEC6AFCB84F945F3 /* Build configuration list for PBXNativeTarget "ESTimePicker" */;
+			buildPhases = (
+				209F0D72DF5862BA023DB6CE5A49E796 /* Sources */,
+				E3C2B36CB415568626D94A4B54558039 /* Frameworks */,
+				C68698FE4A72928456BE633018B0A30C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESTimePicker;
+			productName = ESTimePicker;
+			productReference = 8E43F13852A01A9513401E71F9F6B6B6 /* ESTimePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 696A4D270AA59CBBF7B4A140BD73D51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EA575DA4DF3E324DA41E51F276B9F8 /* ESTimePicker */,
+				0B22A7D55E3A6F4F8DF1CD4E4229F03F /* Pods-Time */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209F0D72DF5862BA023DB6CE5A49E796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A843C4206A8130C89343233ECCDDE38 /* ESMathUtils.m in Sources */,
+				DE027BEE359965E43FCB0680BED431CA /* ESTimePicker-dummy.m in Sources */,
+				A37D1A24A0BCCF492F18AA75BD1ADA65 /* ESTimePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B940E3A8405B8916BAC896BE3316F472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0827602A7D7BB73682ED82288F1041 /* Pods-Time-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		692BB350D0EEA798259938C6440741FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ESTimePicker;
+			target = 17EA575DA4DF3E324DA41E51F276B9F8 /* ESTimePicker */;
+			targetProxy = 1AE20945D6A5A6143634E18E3077DBE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		635ADE4E1C3BFDD372B57F90A1681F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		990DF1CC19FEEFB03058CF09108C9A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E99A1078378B4378DC32D2578590312 /* ESTimePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ESTimePicker/ESTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ESTimePicker/ESTimePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ESTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A6DDB42C29F345240CBBBDAE524D4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1AC785530D46CCB733704A5558724D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18054813C64AEA186595637C9EBE311 /* Pods-Time.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Time/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Time/Pods-Time.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Time;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDF7237720A00599D463FF99F82033D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6268FCD1FFDB048E8399AF1CA6FC05 /* Pods-Time.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Time/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Time/Pods-Time.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Time;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC6D94E3116837C36425086B9E9FED31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E99A1078378B4378DC32D2578590312 /* ESTimePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ESTimePicker/ESTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ESTimePicker/ESTimePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ESTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28879F672785D1F0740F3F376D5D8DC0 /* Build configuration list for PBXNativeTarget "Pods-Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AC785530D46CCB733704A5558724D9 /* Debug */,
+				DDF7237720A00599D463FF99F82033D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635ADE4E1C3BFDD372B57F90A1681F50 /* Debug */,
+				9A6DDB42C29F345240CBBBDAE524D4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30917A3ED9E616FBFEC6AFCB84F945F3 /* Build configuration list for PBXNativeTarget "ESTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990DF1CC19FEEFB03058CF09108C9A71 /* Debug */,
+				FC6D94E3116837C36425086B9E9FED31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
